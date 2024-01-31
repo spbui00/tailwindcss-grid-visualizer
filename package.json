@@ -1,0 +1,47 @@
+{
+  "name": "tailwind-grid-visualization",
+  "version": "1.0.0",
+  "description": "Tailwindcss grid layout visualization",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "grid visualization",
+    "grid layout",
+    "grid"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "4.4.4",
+    "vite": "^5.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "tsc && vite build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "vite",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
